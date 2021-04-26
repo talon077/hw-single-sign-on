@@ -34,6 +34,7 @@ gem 'omniauth-rails_csrf_protection'  # protects against recently discovered vul
 gem 'omniauth'                        # flexible, multi-provider authentication library
 gem 'omniauth-github'                 # omniauth strategy for provider github
 gem 'figaro'                          # keeps our secrets safe
+#gem 'factory_girl_rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,7 +48,8 @@ group :development, :test do
   gem 'capybara', '2.4.4'
   gem 'launchy'
   gem 'rspec-rails', '3.7.2'
-  gem 'ZenTest', '4.11.2'  
+  gem 'ZenTest', '4.11.2'
+  gem 'factory_girl_rails'
 end
 
 group :development do
